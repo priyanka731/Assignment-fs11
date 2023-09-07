@@ -56,8 +56,13 @@ public class Main {
             JSONObject jsonAPIResponse = new JSONObject(apiData.toString());
 
             System.out.println(jsonAPIResponse.get("categories"));
-            System.out.println(jsonAPIResponse.get("name"));
-            System.out.println(jsonAPIResponse.get("country"));
+            System.out.println(jsonAPIResponse.get("created_at"));
+            System.out.println(jsonAPIResponse.get("icon_url"));
+            System.out.println(jsonAPIResponse.get("id"));
+            System.out.println(jsonAPIResponse.get("updated_at"));
+            System.out.println(jsonAPIResponse.get("url"));
+            System.out.println(jsonAPIResponse.get("value"));
+
 
 
             System.out.println(jsonAPIResponse.toString());
