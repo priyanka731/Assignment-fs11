@@ -1,2 +1,4 @@
-package org.example;public @interface SpringbootApplication {
+package org.example;
+
+public @interface SpringbootApplication {
 }
