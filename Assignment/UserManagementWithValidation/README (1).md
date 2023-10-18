@@ -1,5 +1,5 @@
 
-# User Management Validation
+# User Management Application 
 
 ## Framework And Language Used
 -  Java☕
@@ -12,15 +12,30 @@
 
 ### ➡️ Data Flow
 
-- Configuration (Beanfactory.java)
+## Configuration 
+* Beanfactory.java
 
-- Controller (UserController.java)
+## Controller 
+### UserController
+* @PostMapping("users")
+*  @GetMapping(value = "users")
+*  @GetMapping("users/search/{userId}")
+*  @PutMapping("users/{userId}/{phoneNumber}")
+*  @DeleteMapping("users/delete/{userId}")
    
-- Service (UserSerice.java)
+## Service 
+### UserSerice
+* createUser()
+* getAllUsers()
+* getUserById()
+* updateUserPhoneNumber()
+*  DeleteUser
  
-- Model ( User.java)
+## Model 
+* User
   
-- Repository ( UserRepo.java)
+## Repository 
+* UserRepo
  
 ## Data Structure
 - List , ArrayList
